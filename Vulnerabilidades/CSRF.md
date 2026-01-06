@@ -20,40 +20,40 @@ Este documento forma parte de mi portafolio técnico como **HackSolitario**, don
 ## 📂 Evidencias
 
 ### 1. Despliegue del entorno de laboratorio
-![IP del laboratorio](Evidencias/laboratorio_jp_dockerlabs.png)
+![IP del laboratorio](../Evidencias/laboratorio_jp_dockerlabs.png)
 
 ### 2. Registro de usuario en la aplicación vulnerable
-![Registro de usuario](Evidencias/REGISTRO_USR.png)
+![Registro de usuario](../Evidencias/REGISTRO_USR.png)
 
 ### 3. Inicio de sesión en el laboratorio
-![Inicio de sesión](Evidencias/INICIO_SESIÓN.png)
+![Inicio de sesión](../Evidencias/INICIO_SESIÓN.png)
 
 ### 4. Usuario autenticado dentro del laboratorio
-![Sesión activa](Evidencias/registrado_dentro_del_laboratorio_csrf.png)
+![Sesión activa](../Evidencias/registrado_dentro_del_laboratorio_csrf.png)
 
 ### 5. Interceptación de solicitudes en Burp Suite
-![Interceptación en Burp Suite](Evidencias/burpsuite_interceptando_solicitudes.png)
+![Interceptación en Burp Suite](../Evidencias/burpsuite_interceptando_solicitudes.png)
 
 ### 6. Solicitud de cambio de contraseña interceptada
-![Cambio de contraseña interceptado](Evidencias/csrf_cambio_contraseña_interceptado.png)
+![Cambio de contraseña interceptado](../Evidencias/csrf_cambio_contraseña_interceptado.png)
 
 ### 7. Código fuente del payload en Visual Studio Code
-![Código fuente en VSC](Evidencias/csrf_codigo_vrc.png)
+![Código fuente en VSC](../Evidencias/csrf_codigo_vrc.png)
 
 ### 8. Payload malicioso en HTML
-![Payload CSRF en HTML](Evidencias/csrf_payload_html.png)
+![Payload CSRF en HTML](../Evidencias/csrf_payload_html.png)
 
 ### 9. Entorno HTML ejecutando el payload
-![Entorno HTML ejecutado](Evidencias/csrf_entorno_html_ejecutado.png)
+![Entorno HTML ejecutado](../Evidencias/csrf_entorno_html_ejecutado.png)
 
 ### 10. Prueba manual del payload en Burp Suite (Repeater)
-![Repeater en Burp Suite](Evidencias/csrf_repeater_burpsuite.png)
+![Repeater en Burp Suite](../Evidencias/csrf_repeater_burpsuite.png)
 
 ### 11. Vista general del laboratorio en ejecución
-![Laboratorio en ejecución](Evidencias/IMG_LABORATORIO.png)
+![Laboratorio en ejecución](../Evidencias/IMG_LABORATORIO.png)
 
 ### 12. Confirmación de éxito en la explotación
-![Laboratorio CSRF completado](Evidencias/csrf_laboratorio_completado.png)
+![Laboratorio CSRF completado](../Evidencias/csrf_laboratorio_completado.png)
   
   ```html
   <form action="http://172.17.0.2/change-password" method="POST">
